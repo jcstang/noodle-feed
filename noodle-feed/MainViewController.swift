@@ -16,6 +16,7 @@ class ReptileCell: UICollectionViewCell {
 
 class MainViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    @IBOutlet weak var navbarTitle: UINavigationItem!
     
     @IBOutlet weak var repCollectionView: UICollectionView!
     
