@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8E724A9C22DCD695004AE07B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724A9B22DCD695004AE07B /* AppDelegate.swift */; };
-		8E724A9E22DCD695004AE07B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724A9D22DCD695004AE07B /* FirstViewController.swift */; };
-		8E724AA022DCD695004AE07B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724A9F22DCD695004AE07B /* SecondViewController.swift */; };
 		8E724AA322DCD695004AE07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA122DCD695004AE07B /* Main.storyboard */; };
 		8E724AA522DCD697004AE07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA422DCD697004AE07B /* Assets.xcassets */; };
 		8E724AA822DCD697004AE07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA622DCD697004AE07B /* LaunchScreen.storyboard */; };
+		8E724AB022DCDBC8004AE07B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724AAF22DCDBC8004AE07B /* CollectionViewController.swift */; };
+		8E724AB222DCE9EA004AE07B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724AB122DCE9EA004AE07B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E724A9822DCD695004AE07B /* noodle-feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noodle-feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E724A9B22DCD695004AE07B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E724A9D22DCD695004AE07B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8E724A9F22DCD695004AE07B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8E724AA222DCD695004AE07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E724AA422DCD697004AE07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E724AA722DCD697004AE07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E724AA922DCD697004AE07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E724AAF22DCDBC8004AE07B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		8E724AB122DCE9EA004AE07B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				8E724A9B22DCD695004AE07B /* AppDelegate.swift */,
-				8E724A9D22DCD695004AE07B /* FirstViewController.swift */,
-				8E724A9F22DCD695004AE07B /* SecondViewController.swift */,
+				8E724AAF22DCDBC8004AE07B /* CollectionViewController.swift */,
+				8E724AB122DCE9EA004AE07B /* MainViewController.swift */,
 				8E724AA122DCD695004AE07B /* Main.storyboard */,
 				8E724AA422DCD697004AE07B /* Assets.xcassets */,
 				8E724AA622DCD697004AE07B /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E724AA022DCD695004AE07B /* SecondViewController.swift in Sources */,
+				8E724AB222DCE9EA004AE07B /* MainViewController.swift in Sources */,
+				8E724AB022DCDBC8004AE07B /* CollectionViewController.swift in Sources */,
 				8E724A9C22DCD695004AE07B /* AppDelegate.swift in Sources */,
-				8E724A9E22DCD695004AE07B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
