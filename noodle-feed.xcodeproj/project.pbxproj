@@ -11,7 +11,8 @@
 		8E724AA322DCD695004AE07B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA122DCD695004AE07B /* Main.storyboard */; };
 		8E724AA522DCD697004AE07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA422DCD697004AE07B /* Assets.xcassets */; };
 		8E724AA822DCD697004AE07B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E724AA622DCD697004AE07B /* LaunchScreen.storyboard */; };
-		8E724AB222DCE9EA004AE07B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724AB122DCE9EA004AE07B /* MainViewController.swift */; };
+		8E724AB422DCEECE004AE07B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724AB322DCEECE004AE07B /* HomeViewController.swift */; };
+		8E724AB622DCFC55004AE07B /* ReptileCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724AB522DCFC55004AE07B /* ReptileCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,8 @@
 		8E724AA422DCD697004AE07B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E724AA722DCD697004AE07B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E724AA922DCD697004AE07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E724AB122DCE9EA004AE07B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E724AB322DCEECE004AE07B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8E724AB522DCFC55004AE07B /* ReptileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReptileCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				8E724A9B22DCD695004AE07B /* AppDelegate.swift */,
-				8E724AB122DCE9EA004AE07B /* MainViewController.swift */,
+				8E724AB322DCEECE004AE07B /* HomeViewController.swift */,
 				8E724AA122DCD695004AE07B /* Main.storyboard */,
 				8E724AA422DCD697004AE07B /* Assets.xcassets */,
 				8E724AA622DCD697004AE07B /* LaunchScreen.storyboard */,
 				8E724AA922DCD697004AE07B /* Info.plist */,
+				8E724AB522DCFC55004AE07B /* ReptileCollectionViewController.swift */,
 			);
 			path = "noodle-feed";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E724AB222DCE9EA004AE07B /* MainViewController.swift in Sources */,
 				8E724A9C22DCD695004AE07B /* AppDelegate.swift in Sources */,
+				8E724AB622DCFC55004AE07B /* ReptileCollectionViewController.swift in Sources */,
+				8E724AB422DCEECE004AE07B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

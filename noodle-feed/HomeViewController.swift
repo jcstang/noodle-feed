@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  HomeViewController.swift
 //  noodle-feed
 //
 //  Created by Jake Stanger on 7/15/19.
@@ -11,31 +11,39 @@ import UIKit
 private let reuseIdentifier = "myCell"
 
 class ReptileCell: UICollectionViewCell {
-    //todo outlets
+    //todo add the custom labels
+    @IBOutlet weak var reptileName: UILabel!
 }
 
-class MainViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    
+    
     
     @IBOutlet weak var navbarTitle: UINavigationItem!
+    @IBOutlet weak var collectionView: UICollectionView!
     
-    @IBOutlet weak var repCollectionView: UICollectionView!
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ReptileCell
+        print("hello!")
+        return cell
+    }
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ReptileCell
-        
-        
-        return cell
+    @IBAction func addReptilebuttonpressed(_ sender: Any) {
+        print("add button pressed")
     }
     
 
